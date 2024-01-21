@@ -16,12 +16,11 @@ body{
 }
 
 .card{
-    width: 150px;
-    height: 150px;
+    width: 95px;
+    height: 95px;
     position: relative;
     transform-style: preserve-3d;
     transition: transform .5s;
-
 }
 
 img{
@@ -89,5 +88,10 @@ top: 0;
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
     gap: 20px;
+}
 
+footer{
+    position: fixed;
+    bottom: 10px;
+    font-size: 0.9em;
 }
